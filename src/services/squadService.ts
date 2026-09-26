@@ -1,6 +1,6 @@
 import { StudentSquad, SquadSummaryKpis, SquadMember, SquadMilestone, SquadTask, FieldTestRecord, SquadDocumentItem, SquadImpactRecord } from '../types/squad';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = (import.meta.env.VITE_API_URL || '') + '/api';
 
 // Initial fallback mock squads for Jharkhand Universities
 const DEFAULT_MOCK_SQUADS: StudentSquad[] = [
