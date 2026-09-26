@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Secret credentials (never commit secrets)
+.env
+.env.local
+.venv/
+venv/
+ENV/
+env/
+
+# Uploads & Storage directory
+uploads/
+*.log
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & OS settings
+.vscode/
+.idea/
+.DS_Store
+*.swp

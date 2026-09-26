@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+build/
+dist/
+coverage/
+
+# Python Virtual Environments & Caches
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/uploads/
+backend/.env
+uploads/
+
+# OS & Logs
+.DS_Store
+*.log
+.env*
+!.env.example
+!backend/.env.example

@@ -1,0 +1,7 @@
+{
+  "name": "Civic2Campus",
+  "description": "An AI-powered civic innovation ecosystem connecting community problems in Jharkhand with universities, students, faculty, industries, and government.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
